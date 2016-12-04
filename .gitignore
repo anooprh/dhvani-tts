@@ -1,0 +1,84 @@
+###C###
+
+# Object files
+*.o
+*.ko
+*.obj
+*.elf
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Libraries
+*.lib
+*.a
+*.la
+*.lo
+*.lai
+
+# Fortran module files
+*.mod
+
+
+# Shared objects (inc. Windows DLLs)
+*.dll
+*.so
+*.so.*
+*.dylib
+*.slo
+
+# Executables
+*.exe
+*.out
+*.app
+*.i*86
+*.x86_64
+*.hex
+
+
+###CMake###
+
+CMakeCache.txt
+CMakeFiles
+Makefile
+cmake_install.cmake
+install_manifest.txt
+build/
+
+###Autotools###
+
+# http://www.gnu.org/software/automake
+
+Makefile.in
+
+# http://www.gnu.org/software/autoconf
+
+/autom4te.cache
+/aclocal.m4
+/compile
+/configure
+/depcomp
+/install-sh
+/missing
+
+# Autotools generated files
+
+config.h
+config.h.in
+config.log
+config.status
+libtool
+ltmain.sh
+m4/
+src/.deps/
+src/libdhvani.pc
+src/soundtouch4c/.deps/
+stamp-h1
+
+compile
+depcomp
+missing
+
+src/.libs/
+src/dhvani
