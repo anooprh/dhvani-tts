@@ -82,3 +82,8 @@ missing
 
 src/.libs/
 src/dhvani
+
+###Ctags###
+
+.tags* 
+
