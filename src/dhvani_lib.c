@@ -30,8 +30,11 @@
 #include "synthesizer.h"
 #include "dhvani_lib.h"
 #include "debug.h"
-#include "../config.h"
 #include "dhvani_utils.h"
+
+#ifndef USING_CMAKE
+#include "../config.h"
+#endif
 
 /*Return the dhvani version*/
 const char* dhvani_version()

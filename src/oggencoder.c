@@ -22,7 +22,10 @@
 /* A simple ogg encoder. contains source code from oggvorbis source  */
 /*                                                                   */
 /*********************************************************************/
+#ifndef USING_CMAKE
 #include "../config.h"
+#endif
+ 
 #ifdef WITH_OGGVORBIS
 #include <stdio.h>
 #include <stdlib.h>
