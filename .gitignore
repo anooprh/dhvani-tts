@@ -87,3 +87,12 @@ src/dhvani
 
 .tags* 
 
+### IDE / text editor files ###
+
+# Jetbrains CLion files
+.idea/
+*.iws
+*.ipr
+*.iml
+out/
+.idea_modules/

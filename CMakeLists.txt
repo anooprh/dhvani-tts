@@ -4,12 +4,17 @@ project( dhvani )
 
 set(PROJECT_ROOT ${PROJECT_SOURCE_DIR})
 
+set(DATABASEPATH ${PROJECT_ROOT}/database)
+
 add_definitions(-DUSING_CMAKE)
 add_definitions(-DVERSION="0.95")
+add_definitions(-DDATABASEPATH=$DATABASEPATH)
 
 include_directories(AFTER "/usr/include/gstreamer-1.0")
 include_directories(AFTER "/usr/include/glib-2.0")
 include_directories(AFTER "/usr/lib/glib-2.0/include")
+
+SET(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -DDATABASEPATH=${DATABASEPATH}")
 
 file(GLOB DHVANI_SRC
     "src/*.h"
